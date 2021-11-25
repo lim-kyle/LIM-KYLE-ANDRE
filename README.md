@@ -1,2 +1,2 @@
 # hello-world
-semifinals lesson 1
+Finals
