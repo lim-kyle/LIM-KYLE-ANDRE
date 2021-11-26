@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            REGISTRATION FORM
+        </title>
+    </head>
+
+    <style type="text/css">
+        label {
+            width:100px;
+            display: inline-block;
+            margin: 4px;
+        }
+        #form {
+            border-radius: 15px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color:#FFFFFF;
+            width: 420px;
+            padding: 5px;
+            margin: auto;
+            font-size: 13.5px;
+            font-weight: 700;
+            line-height: 40px;
+        }
+        h1 {
+            text-align: center;
+        }
+        body {
+            background-image: url("pics/bg1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: sans-serif;
+        }
+        #submit {
+            margin: 5px;
+            width: 50%;
+        }
+        #clear {
+            width: 45%;
+        }
+    </style>
+        
+
+    <body>
+        <form>
+            <div id="form">
+            <h1 class="h1"> REGISTRATION FORM </h1>
+            <label for="name"> First Name: </label>
+            <input type="text" id="name" placeholder=" First Name " required>
+
+            <br>
+
+            <label for="middle"> Middle Name: </label>
+            <input type="text" id="middle" placeholder=" Middle Name " required>
+            <br>
+            <label for="family"> Family Name: </label>
+            <input type="text" id="family" placeholder=" Family Name " required>
+
+            <br>
+
+            <p> Select Your Gender: </p>
+            <input type="radio" name="Gender" value="male">
+            <label for="male"> Male </label>
+            <input type="radio" name="Gender" value="female">
+            <label for="female"> Female </label>
+
+            <br>
+
+            <label for="email"> Email Address: </label>
+            <input type="email" id="email" placeholder=" Email Address " required>
+
+            <br>
+            
+            <label for="home"> Home Address: </label>  
+            <textarea id="home" name="home" rows="1" cols="50" placeholder=" Home Address.. " required></textarea>  
+        
+            <br>
+
+            <p>  Select Your Hobbies: </p>
+            <input type="checkbox" name="sports" value="Basketball">
+            <label for="sports"> Sports </label>    
+            <input type="checkbox" name="movie" value="TV">
+            <label for="movie"> Movies </label>
+            <input type="checkbox" name="eating" value="Food">
+            <label for="eating"> Eating  </label>
+            <input type="checkbox" name="games" value="games">
+            <label for="games"> Video Games  </label>
+            <input type="checkbox" name="drawing" value="draw">
+            <label for="drawing"> Drawing  </label>
+            <input type="checkbox" name="sing" value="singing">
+            <label for="sing"> Signing  </label>
+
+            <br>
+
+            <label for="color"> Favorite Color: </label>
+            <select name="color" id="color">
+            <option value="c"> Select Your Favorite Color</option>
+            <option value="c1"> Blue</option>
+            <option value="c2"> Red </option>
+            <option value="c3"> White </option>
+            <option value="c4"> Green </option>
+            <option value="c5"> Yellow </option>
+            <option value="c6"> Pink </option>
+            <option value="c7"> Black </option>
+            <option value="c8"> Light Colors </option>
+            </select>
+
+            <br>
+
+            <label for="about"> About Myself: </label> <br>
+            <textarea id="about" name="about" rows="10" cols="50" placeholder="about myself..." required></textarea>
+
+            <input type="submit" id="submit" value="Submit"> <input type="reset" id="clear" value="Clear">
+
+
+            </div>
+        </form>
+    </body>
+</html>
